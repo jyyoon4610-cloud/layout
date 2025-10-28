@@ -1,0 +1,99 @@
+.red {
+	background-color: #A2FF00;
+	height: 140px;
+	width: 100%;
+}
+
+.yellow {
+	background-color: #00FF08;
+	height: 90px;
+	width: 100%;
+}
+
+.green {
+	background-color: #FF00FC;
+	height: 500px;
+	width: calc(100% / 3);
+}
+
+.brown {
+	background-color: #FF00B6;
+	height: 500px;
+	width: calc(100% / 3);
+}
+
+.purple {
+	background-color: #FF006E;
+	height: 500px;
+	width: calc(100% / 3);
+	left: calc(100% / 3);
+}
+
+.blue {
+	background-color: #00FFB4;
+	height: 70px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+	.red {
+		background-color: #CCFF6E;
+		height: 100%;
+		width: 15%;
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+	}
+	.yellow{
+		background-color: #6EFF75;
+		height: 100%;
+		width: 10%;
+		left: 15%;
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+	}
+	.green {
+		background-color: #FA75F7;
+		height: 32%;
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		left: 25%;
+	}
+	.brown {
+		background-color: #FA75D0;
+		height: 32%;
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		left: 25%;
+		top: 32%;
+	}
+	.purple {
+		background-color: #FA75AC;
+		height: 32%;
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		left: 25%;
+		top: 64%;
+	}
+	.blue {
+		background-color: #6EFFD4;
+		height: 4%;
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		left: 25%;
+		bottom: 0;
+	}
+}
